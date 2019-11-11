@@ -1,3 +1,29 @@
 // Place all the styles related to the questions controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+$primary-color: #786969;
+$bold-color: #3c3434;
+
+body {
+  font-family: sans-serif;
+}
+
+p {
+  color: $primary-color;
+}
+
+h1,h2,h3 {
+  color: $bold-color;
+}
+
+.correspondence {
+  padding: 12px;
+  border-left: 8px solid $bold-color;
+  margin: 6px 0;
+  border-radius: 16px;
+}
+
+.coach {
+  background: #f8c8c8;
+}
